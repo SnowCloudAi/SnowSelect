@@ -23,6 +23,9 @@ Paper that must read. SnowSelect is all you need.
 4. [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)
 5. [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
 6. [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf)
+7. [UNet]
+8. [Stacked Hourglass](https://arxiv.org/pdf/1603.06937.pdf)
+9. [YOLO9000](https://arxiv.org/pdf/1612.08242)
 
 ## Optimization
 
