@@ -7,7 +7,7 @@ Paper that must read. SnowSelect is all you need.
 1. [Long and Short-Term Memory](https://www.mitpressjournals.org/doi/10.1162/neco.1997.9.8.1735) : A well-known solution for long sentences processing.
 2. [Learning Longer Memory in RNN](https://arxiv.org/pdf/1412.7753.pdf)
 3. [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf)
-4. [CNN on Sentence Classification]()
+4. [CNN on Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf)
 5. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) : Attention first introduced in NLP field.
 6. [Attention is All You Need.](https://arxiv.org/abs/1706.03762) : first transduction model relying
    entirely on self-attention to compute representations of its input and output without using RNNs or
@@ -20,6 +20,9 @@ Paper that must read. SnowSelect is all you need.
 1. [AlexNet](https://dl.acm.org/citation.cfm?id=3065386):The Beginning of Deep Learning
 2. [First Attention Solution](https://arxiv.org/abs/1109.3737)
 3. [GoogLeNet](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
+4. [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)
+5. [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
+6. [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf)
 
 ## Optimization
 
