@@ -1,6 +1,16 @@
-# SnowSelect
+#SnowSelected Paper List
 
-Paper that must read. SnowSelect is all you need.
+Here is an academic paper list which contains the papers that [SnowCloud.ai](https://www.snowcloud.ai) AI Research Lab considered to be *very important, must read*.
+
+The reason of any paper to be selected in this list may be any of the following:
+
+1. The paper had brought a paradigm shift in its own domain.
+
+2. The paper contained vital parts which lead the appearance of papers in 1.
+
+3. The SnowCloud AI Lab considered that the paper may cause a paradigm shift within 3-5 years.
+
+**SnowSelected  is all you need.**
 
 ## Natual Language Processing
 
@@ -8,31 +18,34 @@ Paper that must read. SnowSelect is all you need.
 2. [Learning Longer Memory in RNN](https://arxiv.org/pdf/1412.7753.pdf)
 3. [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf)
 4. [CNN on Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf)
-5. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) : Attention first introduced in NLP field.
-6. [Attention is All You Need.](https://arxiv.org/abs/1706.03762) : first transduction model relying
+5. [Very Deep Convolutional Networks
+   for Text Classification](https://arxiv.org/pdf/1606.01781.pdf)
+6. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) : Attention first introduced in NLP field.
+7. [Attention is All You Need.](https://arxiv.org/abs/1706.03762) : first transduction model relying
    entirely on self-attention to compute representations of its input and output without using RNNs or
    convolution.
-7. [BERT](https://arxiv.org/abs/1810.04805)
-8. [Transformer-XL](https://arxiv.org/abs/1901.02860): 
+8. [BERT](https://arxiv.org/abs/1810.04805)
+9. [Transformer-XL](https://arxiv.org/abs/1901.02860): 
 
 ## Computer Vision
 
 1. [AlexNet](https://dl.acm.org/citation.cfm?id=3065386):The Beginning of Deep Learning
 2. [First Attention Solution](https://arxiv.org/abs/1109.3737)
 3. [GoogLeNet](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
-4. [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)
-5. [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
-6. [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf)
-7. [UNet]
-8. [Stacked Hourglass](https://arxiv.org/pdf/1603.06937.pdf)
-9. [YOLO9000](https://arxiv.org/pdf/1612.08242)
+4. [VGG](https://arxiv.org/pdf/1409.1556.pdf)
+5. [SPP Net](https://arxiv.org/pdf/1406.4729.pdf)
+6. [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)
+7. [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
+8. [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf)
+9. [UNet](https://arxiv.org/pdf/1505.04597.pdf)
+10. [Stacked Hourglass](https://arxiv.org/pdf/1603.06937.pdf)
+11. [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf)
+12. [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf)
 
 ## Optimization
 
 1. [On Optimization Methods for Deep Learning](http://ai.stanford.edu/~ang/papers/icml11-OptimizationForDeepLearning.pdf)
 2. [Adam Optimization](https://arxiv.org/pdf/1412.6980.pdf)
-3. [VGG](https://arxiv.org/pdf/1409.1556.pdf)
-4. [SPP Net](https://arxiv.org/pdf/1406.4729.pdf)
 
 ## GAN
 
