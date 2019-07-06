@@ -1,4 +1,4 @@
-#SnowSelected Paper List
+# SnowSelected Paper List
 
 Here is an academic paper list which contains the papers that [SnowCloud.ai](https://www.snowcloud.ai) AI Research Lab considered to be *very important, must read*.
 
@@ -16,16 +16,19 @@ The reason of any paper to be selected in this list may be any of the following:
 
 1. [Long and Short-Term Memory](https://www.mitpressjournals.org/doi/10.1162/neco.1997.9.8.1735) : A well-known solution for long sentences processing.
 2. [Learning Longer Memory in RNN](https://arxiv.org/pdf/1412.7753.pdf)
-3. [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf)
-4. [CNN on Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf)
-5. [Very Deep Convolutional Networks
+3. [RAM](https://arxiv.org/pdf/1406.6247.pdf)
+4. [Encoder-Decoder for NLP](https://arxiv.org/pdf/1406.1078.pdf)
+5. [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf)
+6. [A Convolutional Neural Network for Modelling Sentences](https://arxiv.org/pdf/1404.2188.pdf)
+7. [CNN on Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf)
+8. [Very Deep Convolutional Networks
    for Text Classification](https://arxiv.org/pdf/1606.01781.pdf)
-6. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) : Attention first introduced in NLP field.
-7. [Attention is All You Need.](https://arxiv.org/abs/1706.03762) : first transduction model relying
-   entirely on self-attention to compute representations of its input and output without using RNNs or
-   convolution.
-8. [BERT](https://arxiv.org/abs/1810.04805)
-9. [Transformer-XL](https://arxiv.org/abs/1901.02860): 
+9. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) : Attention first introduced in NLP field.
+10. [Attention is All You Need.](https://arxiv.org/abs/1706.03762) : first transduction model relying
+    entirely on self-attention to compute representations of its input and output without using RNNs or
+    convolution.
+11. [BERT](https://arxiv.org/abs/1810.04805)
+12. [Transformer-XL](https://arxiv.org/abs/1901.02860): 
 
 ## Computer Vision
 
@@ -36,11 +39,12 @@ The reason of any paper to be selected in this list may be any of the following:
 5. [SPP Net](https://arxiv.org/pdf/1406.4729.pdf)
 6. [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)
 7. [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
-8. [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf)
-9. [UNet](https://arxiv.org/pdf/1505.04597.pdf)
-10. [Stacked Hourglass](https://arxiv.org/pdf/1603.06937.pdf)
-11. [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf)
-12. [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf)
+8. [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf)
+9. [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf)
+10. [UNet](https://arxiv.org/pdf/1505.04597.pdf)
+11. [Stacked Hourglass](https://arxiv.org/pdf/1603.06937.pdf)
+12. [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf)
+13. [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf)
 
 ## Optimization
 
@@ -54,9 +58,24 @@ The reason of any paper to be selected in this list may be any of the following:
 3. [conditional GAN](https://arxiv.org/pdf/1411.1784.pdf)
 4. [Generalized Denoising Auto-Encoders as Generative Models](http://papers.nips.cc/paper/5023-generalized-denoising-auto-encoders-as-generative-models.pdf)
 
+## Transfer Learning
+
+1. [JMMD](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Long_Transfer_Feature_Learning_2013_ICCV_paper.pdf)
+2. [Adaptation regularization]([https://www3.ntu.edu.sg/home/sinnopan/publications/[TKDE14\]Adaptation%20Regularization%20A%20General%20Framework%20for%20Transfer%20Learning.pdf](https://www3.ntu.edu.sg/home/sinnopan/publications/[TKDE14]Adaptation Regularization A General Framework for Transfer Learning.pdf))
+3. 
+4. [Feature Ensemble Plus Sample Selection: Domain Adaptation for Sentiment Classification](http://www.nlpr.ia.ac.cn/2013papers/gjkw/gk107.pdf)
+
 ## Deep Representations
 
 1. [Better Mixing via Deep Representations](https://arxiv.org/pdf/1207.4404.pdf)
+2. [Provable Bounds for Learning Some Deep
+   Representations](https://arxiv.org/pdf/1310.6343.pdf)
+
+## Audio Processing
+
+1. [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
+2. [Deep Voice](https://arxiv.org/pdf/1702.07825.pdf)
+3. [WaveNet for Denoising](https://arxiv.org/pdf/1706.07162.pdf)
 
 ## Tricks
 
@@ -64,8 +83,3 @@ The reason of any paper to be selected in this list may be any of the following:
 2. [No More Pesky Learning Rates](https://arxiv.org/pdf/1206.1106.pdf)
 3. [Bag of Tricks for CV](https://arxiv.org/pdf/1812.01187.pdf)
 
-## Audio Processing
-
-1. [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
-2. [Deep Voice](https://arxiv.org/pdf/1702.07825.pdf)
-3. [WaveNet for Denoising](https://arxiv.org/pdf/1706.07162.pdf)
