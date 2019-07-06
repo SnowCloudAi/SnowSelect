@@ -64,7 +64,7 @@ The reason of any paper to be selected in this list may be any of the following:
 ## Transfer Learning
 
 1. [JMMD](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Long_Transfer_Feature_Learning_2013_ICCV_paper.pdf)
-2. [Adaptation regularization]([https://www3.ntu.edu.sg/home/sinnopan/publications/[TKDE14\]Adaptation%20Regularization%20A%20General%20Framework%20for%20Transfer%20Learning.pdf](https://www3.ntu.edu.sg/home/sinnopan/publications/[TKDE14]Adaptation Regularization A General Framework for Transfer Learning.pdf))
+2. [Adaptation regularization](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.708.6330&rep=rep1&type=pdf)
 3. [Feature Ensemble Plus Sample Selection: Domain Adaptation for Sentiment Classification](http://www.nlpr.ia.ac.cn/2013papers/gjkw/gk107.pdf)
 
 ## Deep Representations
