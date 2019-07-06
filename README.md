@@ -7,12 +7,13 @@ Paper that must read. SnowSelect is all you need.
 1. [Long and Short-Term Memory](https://www.mitpressjournals.org/doi/10.1162/neco.1997.9.8.1735) : A well-known solution for long sentences processing.
 2. [Learning Longer Memory in RNN](https://arxiv.org/pdf/1412.7753.pdf)
 3. [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf)
-4. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) : Attention first introduced in NLP field.
-5. [Attention is All You Need.](https://arxiv.org/abs/1706.03762) : first transduction model relying
+4. [CNN on Sentence Classification]()
+5. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) : Attention first introduced in NLP field.
+6. [Attention is All You Need.](https://arxiv.org/abs/1706.03762) : first transduction model relying
    entirely on self-attention to compute representations of its input and output without using RNNs or
    convolution.
-6. [BERT](https://arxiv.org/abs/1810.04805)
-7. [Transformer-XL](https://arxiv.org/abs/1901.02860): 
+7. [BERT](https://arxiv.org/abs/1810.04805)
+8. [Transformer-XL](https://arxiv.org/abs/1901.02860): 
 
 ## Computer Vision
 
@@ -41,4 +42,11 @@ Paper that must read. SnowSelect is all you need.
 ## Tricks
 
 1. [Dropout](http://papers.nips.cc/paper/4882-dropout-training-as-adaptive-regularization.pdf)
-2. [Bag of Tricks for CV](https://arxiv.org/pdf/1812.01187.pdf)
+2. [No More Pesky Learning Rates](https://arxiv.org/pdf/1206.1106.pdf)
+3. [Bag of Tricks for CV](https://arxiv.org/pdf/1812.01187.pdf)
+
+## Audio Processing
+
+1. [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
+2. [Deep Voice](https://arxiv.org/pdf/1702.07825.pdf)
+3. [WaveNet for Denoising](https://arxiv.org/pdf/1706.07162.pdf)
