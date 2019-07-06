@@ -28,7 +28,8 @@ The reason of any paper to be selected in this list may be any of the following:
     entirely on self-attention to compute representations of its input and output without using RNNs or
     convolution.
 11. [BERT](https://arxiv.org/abs/1810.04805)
-12. [Transformer-XL](https://arxiv.org/abs/1901.02860): 
+12. [Transformer-XL](https://arxiv.org/abs/1901.02860): Introduced relative positional encoding. Combined AR and AE models to BERT.
+13. [XLNet](https://arxiv.org/pdf/1906.08237.pdf) : Introduced DAG while learning parameters in sentence segments. Resolve the problem may caused by excessive long sentence.
 
 ## Computer Vision
 
@@ -42,9 +43,10 @@ The reason of any paper to be selected in this list may be any of the following:
 8. [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf)
 9. [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf)
 10. [UNet](https://arxiv.org/pdf/1505.04597.pdf)
-11. [Stacked Hourglass](https://arxiv.org/pdf/1603.06937.pdf)
-12. [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf)
-13. [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf)
+11. [FlowNet](https://arxiv.org/pdf/1504.06852.pdf) and [FlowNet2.0](https://arxiv.org/pdf/1612.01925.pdf)
+12. [Stacked Hourglass](https://arxiv.org/pdf/1603.06937.pdf)
+13. [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf)
+14. [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf)
 
 ## Optimization
 
@@ -57,13 +59,13 @@ The reason of any paper to be selected in this list may be any of the following:
 2. [GAN](https://arxiv.org/pdf/1406.2661.pdf)
 3. [conditional GAN](https://arxiv.org/pdf/1411.1784.pdf)
 4. [Generalized Denoising Auto-Encoders as Generative Models](http://papers.nips.cc/paper/5023-generalized-denoising-auto-encoders-as-generative-models.pdf)
+5. [DCGAN](https://arxiv.org/pdf/1511.06434.pdf)
 
 ## Transfer Learning
 
 1. [JMMD](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Long_Transfer_Feature_Learning_2013_ICCV_paper.pdf)
 2. [Adaptation regularization]([https://www3.ntu.edu.sg/home/sinnopan/publications/[TKDE14\]Adaptation%20Regularization%20A%20General%20Framework%20for%20Transfer%20Learning.pdf](https://www3.ntu.edu.sg/home/sinnopan/publications/[TKDE14]Adaptation Regularization A General Framework for Transfer Learning.pdf))
-3. 
-4. [Feature Ensemble Plus Sample Selection: Domain Adaptation for Sentiment Classification](http://www.nlpr.ia.ac.cn/2013papers/gjkw/gk107.pdf)
+3. [Feature Ensemble Plus Sample Selection: Domain Adaptation for Sentiment Classification](http://www.nlpr.ia.ac.cn/2013papers/gjkw/gk107.pdf)
 
 ## Deep Representations
 
