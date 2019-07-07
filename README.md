@@ -14,33 +14,42 @@ The reason of any paper to be selected in this list may be any of the following:
 
 ## Natual Language Processing
 
-* [Long and Short-Term Memory](https://www.mitpressjournals.org/doi/10.1162/neco.1997.9.8.1735) : A well-known solution for long sentences processing.
-* [Learning Longer Memory in RNN](https://arxiv.org/pdf/1412.7753.pdf) : Formulated Recursive Neural Network which can be applied on sequences recursively by only using a single compact model.
-* [RAM](https://arxiv.org/pdf/1406.6247.pdf)
-* [Encoder-Decoder for NLP](https://arxiv.org/pdf/1406.1078.pdf)
-- [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf)
-- [A Convolutional Neural Network for Modelling Sentences](https://arxiv.org/pdf/1404.2188.pdf)
-- [CNN on Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf) : Due to the LSTM/RNN's relatively low efficiency on AI chips, an natural idea of replacing RNN-like structure by Conv1D occurred in this paper.
+- [Long and Short-Term Memory](https://www.mitpressjournals.org/doi/10.1162/neco.1997.9.8.1735) : An original idea for long sentences processing, inspired by human neural information processing mechanism.
+- [Connectionist temporal classification](ftp://ftp.idsia.ch/pub/juergen/icml2006.pdf) : Inspired by dynamic processing and dynamic time warping(DTW) when dealing with time-warped sequences like audio data.
+- [Learning Longer Memory in RNN](https://arxiv.org/pdf/1413.7753.pdf) : Formulated Recursive Neural Network which can be applied on sequences recursively by only using a single compact model.
+- [Learning phrase representations using RNN encoder-decoder for statistical machine translation](https://arxiv.org/pdf/1406.1078.pdf) : "Cho Model" for NMT.
+- [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf): "Sutskever Model" for NMT, an advanced version.
+- [A Convolutional Neural Network for Modelling Sentences](https://arxiv.org/pdf/1404.2188.pdf) : Conv model for NLP.. More efficient on AI chips.
+- [CNN on Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf) : Conv model for NLP.
 - [Very Deep Convolutional Networks
-   for Text Classification](https://arxiv.org/pdf/1606.01781.pdf)
+   for Text Classification](https://arxiv.org/pdf/1606.01781.pdf) : Conv model foor NLP.
 - [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) :  Attention mechanism first introduced in NLP field.
-- [Soft And Hard Attention](https://arxiv.org/pdf/1502.03044.pdf)
-- [Global And Local Attention](https://arxiv.org/pdf/1508.04025.pdf)
-- [Character-Aware Neural Language Models](https://arxiv.org/pdf/1508.06615.pdf)
-- [Attention is All You Need.](https://arxiv.org/pdf/1706.03762.pdf) :first transduction model relying entirely on self-attention to compute representations of its input and output without using RNNs or convolution. The core idea is introducing positional encoding to the embedding vector.
-- [BERT](https://arxiv.org/abs/1810.04805)
-- [Transformer-XL](https://arxiv.org/abs/1901.02860): Introduced relative positional encoding. Combined AR and AE models to BERT.
-- [XLNet](https://arxiv.org/pdf/1906.08237.pdf) : Introduced DAG while learning parameters in sentence segments. Resolve the problem may caused by excessive long sentence.
+- [Soft And Hard Attention](https://arxiv.org/pdf/1502.03044.pdf) : Introduced the choice of soft and hard attention along features.
+- [Global And Local Attention](https://arxiv.org/pdf/1508.04025.pdf) : Introduced attention along data.
+- [Character-Aware Neural Language Models](https://arxiv.org/pdf/1508.06615.pdf): Character level Conv model for NLP.
+- [Attention is All You Need.](https://arxiv.org/pdf/1706.03762.pdf) : First transduction model relying entirely on self-attention to compute representations of its input and output without using RNNs or convolution, but global FC. Introduced positional encoding, 15% mask sampling and multihead (plus, minus, eltwise product) additive attention.
+- [BERT](https://arxiv.org/abs/1810.04805): Bidirectional. Optimized for downstream tasks.
+- [Transformer-XL](https://arxiv.org/abs/1901.02860): Introduced relative positional encoding. State reuse resolved the problem may caused by excessive long sentence.
+- [XLNet](https://arxiv.org/pdf/1906.08237.pdf) : Introduced DAG while learning parameters in sentence segments. Combined AR and AE models.
+
+So what is NEXT? 
+
+- Better sampling to keep locally complete information of data.
+- Better relative positional encoding beyond "learned from position".
+- Simplified structure of XLNet AR part.
+
 
 ## Computer Vision
 
-- [AlexNet](https://dl.acm.org/citation.cfm?id=3065386):The Beginning of Deep Learning
+### Todo: Shuicheng Yans' 1x1, Invertible 1x1, Pixel Shuffler, DeepLab v1-v3, DarkNet, Dilated Conv, WideResNet
+
+- [AlexNet](https://dl.acm.org/citation.cfm?id=3065386) : The Beginning of Deep Learning
 - [First Attention Solution](https://arxiv.org/abs/1109.3737)
 - [GoogLeNet](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
 - [VGG](https://arxiv.org/pdf/1409.1556.pdf)
 - [SPP Net](https://arxiv.org/pdf/1406.4729.pdf)
 - [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf)
-- [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)
+- [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf) : Must read before ResNet. Introduced branching schemes to accelerate deep learning training process.
 - [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
 - [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf)
 - [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf)
