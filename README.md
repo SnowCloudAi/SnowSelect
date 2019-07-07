@@ -24,7 +24,10 @@ The reason of any paper to be selected in this list may be any of the following:
 - [Very Deep Convolutional Networks
    for Text Classification](https://arxiv.org/pdf/1606.01781.pdf)
 - [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) : Attention first introduced in NLP field.
-- [Attention is All You Need.](https://arxiv.org/abs/1706.03762) : first transduction model relying
+- [Soft And Hard Attention](https://arxiv.org/pdf/1502.03044.pdf)
+- [Global And Local Attention](https://arxiv.org/pdf/1508.04025.pdf)
+- [Character-Aware Neural Language Models](https://arxiv.org/pdf/1508.06615.pdf)
+- [Attention is All You Need.](https://arxiv.org/pdf/1706.03762.pdf) : first transduction model relying
     entirely on self-attention to compute representations of its input and output without using RNNs or
     convolution.
 - [BERT](https://arxiv.org/abs/1810.04805)
@@ -38,10 +41,13 @@ The reason of any paper to be selected in this list may be any of the following:
 - [GoogLeNet](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
 - [VGG](https://arxiv.org/pdf/1409.1556.pdf)
 - [SPP Net](https://arxiv.org/pdf/1406.4729.pdf)
+- [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf)
 - [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)
 - [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
 - [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf)
 - [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf)
+- [Fully Convolutional Networks](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
+- [DenseNet](https://arxiv.org/pdf/1605.07110.pdf)
 - [UNet](https://arxiv.org/pdf/1505.04597.pdf)
 - [FlowNet](https://arxiv.org/pdf/1504.06852.pdf) and [FlowNet2.0](https://arxiv.org/pdf/1612.01925.pdf)
 - [Stacked Hourglass](https://arxiv.org/pdf/1603.06937.pdf)
@@ -59,13 +65,20 @@ The reason of any paper to be selected in this list may be any of the following:
 - [GAN](https://arxiv.org/pdf/1406.2661.pdf)
 - [conditional GAN](https://arxiv.org/pdf/1411.1784.pdf)
 - [Generalized Denoising Auto-Encoders as Generative Models](http://papers.nips.cc/paper/5023-generalized-denoising-auto-encoders-as-generative-models.pdf)
+- [LAPGAN](https://arxiv.org/pdf/1506.05751.pdf)
+- [GAN for Combinatorial Optimization](https://arxiv.org/pdf/1509.09235.pdf)
+- [A note on the evaluation of generative models](https://arxiv.org/pdf/1511.01844.pdf)
 - [DCGAN](https://arxiv.org/pdf/1511.06434.pdf)
+- [SRGAN](https://arxiv.org/pdf/1609.04802.pdf)
+- [Pix2Pix](https://arxiv.org/pdf/1611.07004.pdf)
+- [CycleGAN](https://arxiv.org/pdf/1703.10593.pdf)
 
 ## Transfer Learning
 
 - [JMMD](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Long_Transfer_Feature_Learning_2013_ICCV_paper.pdf)
 - [Adaptation regularization](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.708.6330&rep=rep1&type=pdf)
 - [Feature Ensemble Plus Sample Selection: Domain Adaptation for Sentiment Classification](http://www.nlpr.ia.ac.cn/2013papers/gjkw/gk107.pdf)
+- [Net2Net](https://arxiv.org/pdf/1511.05641.pdf)
 
 ## Deep Representations
 
