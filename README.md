@@ -15,21 +15,19 @@ The reason of any paper to be selected in this list may be any of the following:
 ## Natual Language Processing
 
 * [Long and Short-Term Memory](https://www.mitpressjournals.org/doi/10.1162/neco.1997.9.8.1735) : A well-known solution for long sentences processing.
-* [Learning Longer Memory in RNN](https://arxiv.org/pdf/1412.7753.pdf)
+* [Learning Longer Memory in RNN](https://arxiv.org/pdf/1412.7753.pdf) : Formulated Recursive Neural Network which can be applied on sequences recursively by only using a single compact model.
 * [RAM](https://arxiv.org/pdf/1406.6247.pdf)
 * [Encoder-Decoder for NLP](https://arxiv.org/pdf/1406.1078.pdf)
 - [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf)
 - [A Convolutional Neural Network for Modelling Sentences](https://arxiv.org/pdf/1404.2188.pdf)
-- [CNN on Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf)
+- [CNN on Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf) : Due to the LSTM/RNN's relatively low efficiency on AI chips, an natural idea of replacing RNN-like structure by Conv1D occurred in this paper.
 - [Very Deep Convolutional Networks
    for Text Classification](https://arxiv.org/pdf/1606.01781.pdf)
-- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) : Attention first introduced in NLP field.
+- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf) :  Attention mechanism first introduced in NLP field.
 - [Soft And Hard Attention](https://arxiv.org/pdf/1502.03044.pdf)
 - [Global And Local Attention](https://arxiv.org/pdf/1508.04025.pdf)
 - [Character-Aware Neural Language Models](https://arxiv.org/pdf/1508.06615.pdf)
-- [Attention is All You Need.](https://arxiv.org/pdf/1706.03762.pdf) : first transduction model relying
-    entirely on self-attention to compute representations of its input and output without using RNNs or
-    convolution.
+- [Attention is All You Need.](https://arxiv.org/pdf/1706.03762.pdf) :first transduction model relying entirely on self-attention to compute representations of its input and output without using RNNs or convolution. The core idea is introducing positional encoding to the embedding vector.
 - [BERT](https://arxiv.org/abs/1810.04805)
 - [Transformer-XL](https://arxiv.org/abs/1901.02860): Introduced relative positional encoding. Combined AR and AE models to BERT.
 - [XLNet](https://arxiv.org/pdf/1906.08237.pdf) : Introduced DAG while learning parameters in sentence segments. Resolve the problem may caused by excessive long sentence.
