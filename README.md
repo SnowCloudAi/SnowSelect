@@ -57,7 +57,11 @@ So what is NEXT?
 - [ResNet](https://arxiv.org/pdf/1512.03385.pdf) : Branching scheme with standardized implementation (18/34/50/101), combinations of Conv3x3 and Conv1x1
 - [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf) : 
 - [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf) : 
+- [Convolution Pose Machines](https://arxiv.org/pdf/1602.00134.pdf)
+- [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf)
 - [Wide ResNet](https://arxiv.org/pdf/1605.07146.pdf)
+- [R-FCN](https://arxiv.org/pdf/1605.06409.pdf)
+- [EnhanceNet](https://arxiv.org/pdf/1612.07919.pdf)
 - [Fully Convolutional Networks](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) : Pixelwise classification as Segmentation
 - [DenseNet](https://arxiv.org/pdf/1605.07110.pdf) : Introduced distillation idea in Conv Neural Networks.
 - [UNet](https://arxiv.org/pdf/1505.04597.pdf) : Introduced spatial features extraction and restorations. Backbone of many works like image compression/imputations/segmentation. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
@@ -67,6 +71,9 @@ So what is NEXT?
 - [FlowNet](https://arxiv.org/pdf/1504.06852.pdf) and [FlowNet2.0](https://arxiv.org/pdf/1612.01925.pdf) Introduced temporal features extraction. Backbone of many works based on video understanding. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
 - [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf) : Introduced unsupervised clustering in RPN/NMS stage.
 - [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf)
+- [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
+- [OpenPose + PAF](https://arxiv.org/pdf/1611.08050.pdf)
+- [MobileNets](https://arxiv.org/pdf/1704.04861.pdf)
 - [Glow](https://arxiv.org/pdf/1807.03039.pdf)
 - [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf) : Introduced Segmentation methodology for detection task.
 
