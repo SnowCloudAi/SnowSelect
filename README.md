@@ -94,6 +94,7 @@ So what is NEXT?
 - [DCGAN](https://arxiv.org/pdf/1511.06434.pdf)
 - [SRGAN](https://arxiv.org/pdf/1609.04802.pdf)
 - [Pix2Pix](https://arxiv.org/pdf/1611.07004.pdf)
+- [WGAN](https://arxiv.org/pdf/1701.07875.pdf) and [WGAN-GP](https://arxiv.org/pdf/1704.00028.pdf)
 - [CycleGAN](https://arxiv.org/pdf/1703.10593.pdf)
 
 ## Transfer Learning
