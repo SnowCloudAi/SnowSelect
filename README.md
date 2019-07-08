@@ -1,4 +1,4 @@
-# SnowSelected Paper List
+# SnowSelected Paper List (WIP)
 
 Here is an academic paper list which contains the papers that [SnowCloud.ai](https://www.snowcloud.ai) AI Research Lab considered to be *very important, must read*.
 
