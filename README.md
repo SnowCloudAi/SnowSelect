@@ -29,7 +29,9 @@ The reason of any paper to be selected in this list may be any of the following:
 - [Character-Aware Neural Language Models](https://arxiv.org/pdf/1508.06615.pdf): Character level Conv model for NLP.
 - [Attention is All You Need.](https://arxiv.org/pdf/1706.03762.pdf) : First transduction model relying entirely on self-attention to compute representations of its input and output without using RNNs or convolution, but global FC. Introduced positional encoding, 15% mask sampling and multihead (plus, minus, eltwise product) additive attention.
 - [BERT](https://arxiv.org/abs/1810.04805): Bidirectional. Optimized for downstream tasks.
+- [Attentive Neural Processes](https://arxiv.org/pdf/1901.05761.pdf)
 - [Transformer-XL](https://arxiv.org/abs/1901.02860): Introduced relative positional encoding. State reuse resolved the problem may caused by excessive long sentence.
+- [Focused Attention Networks](https://arxiv.org/pdf/1905.11498.pdf)
 - [XLNet](https://arxiv.org/pdf/1906.08237.pdf) : Combined AR and AE models. Introduced DAG while learning AR parameters in sentence segments.
 
 So what is NEXT? 
@@ -74,8 +76,14 @@ So what is NEXT?
 - [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
 - [OpenPose + PAF](https://arxiv.org/pdf/1611.08050.pdf)
 - [MobileNets](https://arxiv.org/pdf/1704.04861.pdf)
+- [ArcFace](https://arxiv.org/pdf/1801.07698.pdf)
+- [Image Transformer](https://arxiv.org/pdf/1802.05751.pdf)
+- [Multimodal Unsupervised Image-to-Image Translation](https://arxiv.org/pdf/1804.04732.pdf)
+- [SNIPER: Efficient Multi-Scale Training](https://arxiv.org/pdf/1805.09300.pdf)
+- [Learning to Segment Every Thing](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Learning_to_Segment_CVPR_2018_paper.pdf)
 - [Glow](https://arxiv.org/pdf/1807.03039.pdf)
 - [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf) : Introduced Segmentation methodology for detection task.
+- [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf)
 
 ## Optimization
 
@@ -123,3 +131,4 @@ So what is NEXT?
 - [Bag of Tricks for CV](https://arxiv.org/pdf/1812.01187.pdf)
 - [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/pdf/1706.02677.pdf)
 - [LARS](https://arxiv.org/pdf/1709.05011.pdf)
+- [Learning Data Augmentation Strategies for Object Detection](https://arxiv.org/pdf/1906.11172.pdf)
