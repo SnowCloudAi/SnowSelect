@@ -132,3 +132,14 @@ So what is NEXT?
 - [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/pdf/1706.02677.pdf)
 - [LARS](https://arxiv.org/pdf/1709.05011.pdf)
 - [Learning Data Augmentation Strategies for Object Detection](https://arxiv.org/pdf/1906.11172.pdf)
+
+## Systems
+
+1. [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/pdf/1603.06560.pdf)
+2. [Learning to Optimize](https://arxiv.org/pdf/1606.01885.pdf)
+3. [Neural Architecture Search with Reinforcement Learning](https://arxiv.org/pdf/1611.01578.pdf)
+4. [AMC: AutoML for Model Compression and Acceleration on Mobile Devices](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yihui_He_AMC_Automated_Model_ECCV_2018_paper.pdf)
+5. [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/abs/1802.04799)
+6. [Horvord](https://arxiv.org/pdf/1802.05799.pdf)
+7. [A Meta Learning-Based Framework for Automated Selection and Hyperparameter Tuning for Machine Learning Algorithms](http://openproceedings.org/2019/conf/edbt/EDBT19_paper_235.pdf)
+8. [DARTS: Differentiable Architecture Search](https://arxiv.org/pdf/1806.09055.pdf)
