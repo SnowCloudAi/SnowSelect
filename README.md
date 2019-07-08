@@ -41,24 +41,33 @@ So what is NEXT?
 
 ## Computer Vision
 
-### Todo: Shuicheng Yans' 1x1, Invertible 1x1, Pixel Shuffler, DeepLab v1-v3, DarkNet, Dilated Conv, WideResNet
+### Todo: Shuicheng Yans' 1x1, Invertible 1x1, Pixel Shuffler, DeepLab v1-v3, DarkNet
 
 - [AlexNet](https://dl.acm.org/citation.cfm?id=3065386) : The Beginning of Deep Learning. Achieve new high rcoord  in imagenet classification
 - [First Attention Solution](https://arxiv.org/abs/1109.3737) : 
 - [GoogLeNet](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf) : Combinations of different kernels
+- [Convolutional Implementation of Sliding Windows](https://arxiv.org/pdf/1312.6229.pdf)
+- [1 x 1 Convolution](https://arxiv.org/abs/1312.4400)
 - [VGG](https://arxiv.org/pdf/1409.1556.pdf) : Deeper (19 layers at most) Conv3x3 models.
 - [SPP Net](https://arxiv.org/pdf/1406.4729.pdf) : Introduced Pyramid like conventional SIFT.
 - [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf) : Deal with large scale dynamic range of features.
+- [Triplet Loss](https://arxiv.org/pdf/1503.03832.pdf)
 - [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf) : Must read before ResNet. Introduced branching schemes to accelerate deep learning training process.
+- [Dilate Convolution](https://arxiv.org/pdf/1511.07122.pdf)
 - [ResNet](https://arxiv.org/pdf/1512.03385.pdf) : Branching scheme with standardized implementation (18/34/50/101), combinations of Conv3x3 and Conv1x1
 - [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf) : 
 - [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf) : 
+- [Wide ResNet](https://arxiv.org/pdf/1605.07146.pdf)
 - [Fully Convolutional Networks](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) : Pixelwise classification as Segmentation
 - [DenseNet](https://arxiv.org/pdf/1605.07110.pdf) : Introduced distillation idea in Conv Neural Networks.
 - [UNet](https://arxiv.org/pdf/1505.04597.pdf) : Introduced spatial features extraction and restorations. Backbone of many works like image compression/imputations/segmentation. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
-- [FlowNet](https://arxiv.org/pdf/1504.06852.pdf) and [FlowNet2.0](https://arxiv.org/pdf/1612.01925.pdf) Introduced temporal features extraction. Backbone of many works based on video understanding. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
+- [YOLO](https://arxiv.org/abs/1506.02640)
 - [Stacked Hourglass](https://arxiv.org/pdf/1603.06937.pdf): Recombination of ResNet. Achieved SOTA using hourglass104.
+- [FPN](https://arxiv.org/pdf/1612.03144.pdf)
+- [FlowNet](https://arxiv.org/pdf/1504.06852.pdf) and [FlowNet2.0](https://arxiv.org/pdf/1612.01925.pdf) Introduced temporal features extraction. Backbone of many works based on video understanding. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
 - [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf) : Introduced unsupervised clustering in RPN/NMS stage.
+- [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf)
+- [Glow](https://arxiv.org/pdf/1807.03039.pdf)
 - [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf) : Introduced Segmentation methodology for detection task.
 
 ## Optimization
