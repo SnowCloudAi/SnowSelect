@@ -41,13 +41,13 @@ So what is NEXT?
 
 ## Computer Vision
 
-### Todo: Shuicheng Yans' 1x1, Invertible 1x1, Pixel Shuffler, DeepLab v1-v3, DarkNet
+### Invertible 1x1, Pixel Shuffler, DeepLab v1-v3, DarkNet
 
 - [AlexNet](https://dl.acm.org/citation.cfm?id=3065386) : The Beginning of Deep Learning. Achieve new high rcoord  in imagenet classification
 - [First Attention Solution](https://arxiv.org/abs/1109.3737) : 
 - [GoogLeNet](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf) : Combinations of different kernels
 - [Convolutional Implementation of Sliding Windows](https://arxiv.org/pdf/1312.6229.pdf)
-- [1 x 1 Convolution](https://arxiv.org/abs/1312.4400)
+- [1 x 1 Convolution](https://arxiv.org/pdf/1312.4400.pdf)
 - [VGG](https://arxiv.org/pdf/1409.1556.pdf) : Deeper (19 layers at most) Conv3x3 models.
 - [SPP Net](https://arxiv.org/pdf/1406.4729.pdf) : Introduced Pyramid like conventional SIFT.
 - [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf) : Deal with large scale dynamic range of features.
@@ -113,4 +113,5 @@ So what is NEXT?
 - [Dropout](http://papers.nips.cc/paper/4882-dropout-training-as-adaptive-regularization.pdf)
 - [No More Pesky Learning Rates](https://arxiv.org/pdf/1206.1106.pdf)
 - [Bag of Tricks for CV](https://arxiv.org/pdf/1812.01187.pdf)
-
+- [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/pdf/1706.02677.pdf)
+- [LARS](https://arxiv.org/pdf/1709.05011.pdf)
