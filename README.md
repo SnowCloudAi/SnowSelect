@@ -46,46 +46,84 @@ So what is NEXT?
 
 ## Computer Vision
 
-### Invertible 1x1, Pixel Shuffler, DeepLab v1-v3, DarkNet
+### Invertible 1x1, Pixel Shuffler, DeepLab v1-v3
+
+### Architecture
 
 - [AlexNet](https://dl.acm.org/citation.cfm?id=3065386) : The Beginning of Deep Learning for CV. Achieve new high rcoord  in imagenet classification
+- [VGG](https://arxiv.org/pdf/1409.1556.pdf) : Deeper (19 layers at most) Conv3x3 models.
+
+* Google Series
+  * [GoogLeNet](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf) : Combinations of different kernel sizes.
+  * [Inception v3](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf)
+  * [Inception v4](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14806/14311)
+
 - [First Attention Solution](https://arxiv.org/abs/1109.3737) : 
-- [GoogLeNet](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf) : Combinations of different kernel sizes.
 - [Convolutional Implementation of Sliding Windows](https://arxiv.org/pdf/1312.6229.pdf) : The core idea is CNN must recognize things invariant to position shifts.
 - [1 x 1 Convolution](https://arxiv.org/pdf/1312.4400.pdf) : Introduced inplace inter-channel information exchange.
-- [VGG](https://arxiv.org/pdf/1409.1556.pdf) : Deeper (19 layers at most) Conv3x3 models.
-- [SPP Net](https://arxiv.org/pdf/1406.4729.pdf) : Introduced Pyramid like conventional SIFT.
 - [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf) : Deal with large scale dynamic range of features.
 - [Triplet Loss](https://arxiv.org/pdf/1503.03832.pdf) : Combined differential learning and hard example mining.
 - [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf) : Must read before ResNet. Introduced branching schemes to accelerate deep learning training process.
 - [Dilate Convolution](https://arxiv.org/pdf/1511.07122.pdf): Introduced more effective method for enlarging receptive field.
 - [ResNet](https://arxiv.org/pdf/1512.03385.pdf) : Branching scheme with standardized implementation (18/34/50/101), combinations of Conv3x3 and Conv1x1
-- [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf) : 
-- [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf) : 
-- [Convolution Pose Machines](https://arxiv.org/pdf/1602.00134.pdf) : 
+- [DenseNet](https://arxiv.org/pdf/1605.07110.pdf) : Introduced distillation idea in Conv Neural Networks.
+- [ResNeXt](https://arxiv.org/pdf/1611.05431.pdf) : A tradeoff between a sparse MobileNet and a dense ResNet.
+- [MobileNets](https://arxiv.org/pdf/1704.04861.pdf) : Efficient on some mobile devices. Introduced Depthwise Separable Conv which is very sparse. Save space for model parameters to the extreme. No saving for infer-time feature map.
 - [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf) : Introduced attention mechanism vertical to image.
 - [Wide ResNet](https://arxiv.org/pdf/1605.07146.pdf) : Ablation study for changing channel sizes.
 - [R-FCN](https://arxiv.org/pdf/1605.06409.pdf) : Introduced 3x3 pixel shuffler.
-- [Fully Convolutional Networks](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) : Pixelwise classification as Segmentation.
-- [DenseNet](https://arxiv.org/pdf/1605.07110.pdf) : Introduced distillation idea in Conv Neural Networks.
-- [UNet](https://arxiv.org/pdf/1505.04597.pdf) : Introduced spatial features extraction and restorations. Backbone of many works like image compression/imputations/segmentation. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
-- [YOLO](https://arxiv.org/abs/1506.02640) : Deal Classification problem using coarse segmentation.
-- [Stacked Hourglass](https://arxiv.org/pdf/1603.06937.pdf): Recombination of ResNet. Achieved SOTA using hourglass104.
-- [FPN](https://arxiv.org/pdf/1612.03144.pdf)
+- [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf)
+- [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf)
+
+### Detection
+
+* R-CNN Original
+  * [R-CNN](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf)
+  * [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf)
+
+* Kaiming He Series
+  * [SPP Net](https://arxiv.org/pdf/1406.4729.pdf) : Introduced Pyramid like conventional SIFT.
+  * Improved R-CNN
+    * [Faster R-CNN](https://arxiv.org/pdf/1506.01497.pdf)
+    * [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf) :  Introduced segmentation after ROI-Align. **Not efficient on AI chip.**
+    * [TensorMask](https://arxiv.org/pdf/1903.12174.pdf)
+* Jia Deng Series
+  * [Stacked Hourglass Networks](https://arxiv.org/pdf/1603.06937.pdf) : Recombination of ResNet. Achieved SOTA using hourglass104.
+  * [CornerNet](http://openaccess.thecvf.com/content_ECCV_2018/papers/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.pdf)
+
+* YOLO Series
+  * [YOLO](https://arxiv.org/abs/1506.02640) : Deal Classification problem using coarse segmentation.
+  * [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf) : Yolov2. Better, Stronger, Faster. Introduced Darknet architecture using less Conv1x1. Introduced label tricks. 
+  * [YOLOv3](https://pjreddie.com/media/files/papers/YOLOv3.pdf) : Introduced unsupervised clustering in RPN/NMS stage.
+* [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf) : Introduced Segmentation methodology for detection task.
+
+### Segmentation
+
+* [Fully Convolutional Networks](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) : Pixelwise classification as Segmentation.
+* [UNet](https://arxiv.org/pdf/1505.04597.pdf) : Introduced spatial features extraction and restorations. Backbone of many works like image compression/imputations/segmentation. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
+* [DeepLab](http://arxiv.org/pdf/1606.00915.pdf) ,[DeepLab v2](https://arxiv.org/pdf/1606.00915.pdf) and [DeepLab v3](https://arxiv.org/pdf/1706.05587.pdf)
+* [FPN](https://arxiv.org/pdf/1612.03144.pdf)
+
+### Optical Flow
+
 - [FlowNet](https://arxiv.org/pdf/1504.06852.pdf) and [FlowNet2.0](https://arxiv.org/pdf/1612.01925.pdf) Introduced temporal features extraction. Backbone of many works based on video understanding. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
-- [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf) : Yolov2. Better, Stronger, Faster. Introduced Darknet architecture using less Conv1x1. Introduced label tricks. YoloV3 Introduced unsupervised clustering in RPN/NMS stage.
-- [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf): 
-- [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf) : Introduced segmentation after ROI-Align. **Not efficient on AI chip.**
-- [OpenPose + PAF](https://arxiv.org/pdf/1611.08050.pdf) : The core idea is to predict directed vectors in between keypoints to form a feature map (PAF) thus one can join KP to different instances in a bottom-up way.
-- [ResNeXt](https://arxiv.org/pdf/1611.05431.pdf) : A tradeoff between a sparse MobileNet and a dense ResNet.
-- [MobileNets](https://arxiv.org/pdf/1704.04861.pdf) : Efficient on some mobile devices. Introduced Depthwise Separable Conv which is very sparse. Save space for model parameters to the extreme. No saving for infer-time feature map.
+- [SelFlow](https://arxiv.org/pdf/1904.09117.pdf)
+
+### Unsupervised Methods
+
 - [Unsupervised learning of object landmarks by factorized spatial embeddings](https://arxiv.org/pdf/1705.02193.pdf)
 - [Deep Image Prior](https://arxiv.org/pdf/1711.10925.pdf)
+
+### Loss Function
+
 - [ArcFace](https://arxiv.org/pdf/1801.07698.pdf) : A final human face recognition paper combines sphereface idea and different order loss margins (Order 0,1,2 are hyper parameters)
-- [Multimodal Unsupervised Image-to-Image Translation](https://arxiv.org/pdf/1804.04732.pdf): ?
-- [Learning to Segment Every Thing](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Learning_to_Segment_CVPR_2018_paper.pdf): ?
+
 - [Glow](https://arxiv.org/pdf/1807.03039.pdf) : Introduced Invertible 1x1 Convolutions to save parameters in Encoder/Decoder , relying on PixelShuffler. 
-- [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf) : Introduced Segmentation methodology for detection task.
+
+### Pose Estimation
+
+- [Convolution Pose Machines](https://arxiv.org/pdf/1602.00134.pdf) : 
+- [OpenPose + PAF](https://arxiv.org/pdf/1611.08050.pdf) : The core idea is to predict directed vectors in between keypoints to form a feature map (PAF) thus one can join KP to different instances in a bottom-up way.
 
 So what is NEXT?
 
