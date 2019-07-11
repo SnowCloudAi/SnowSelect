@@ -65,7 +65,6 @@ So what is NEXT?
 - [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf) : Introduced attention mechanism vertical to image.
 - [Wide ResNet](https://arxiv.org/pdf/1605.07146.pdf) : Ablation study for changing channel sizes.
 - [R-FCN](https://arxiv.org/pdf/1605.06409.pdf) : Introduced 3x3 pixel shuffler.
-- [EnhanceNet](https://arxiv.org/pdf/1612.07919.pdf) : What?
 - [Fully Convolutional Networks](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) : Pixelwise classification as Segmentation.
 - [DenseNet](https://arxiv.org/pdf/1605.07110.pdf) : Introduced distillation idea in Conv Neural Networks.
 - [UNet](https://arxiv.org/pdf/1505.04597.pdf) : Introduced spatial features extraction and restorations. Backbone of many works like image compression/imputations/segmentation. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
