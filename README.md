@@ -17,6 +17,7 @@ After each subdomain, we proposed several ideas that may inspire your work that 
 ## Natual Language Processing
 
 - [Long and Short-Term Memory](https://www.mitpressjournals.org/doi/10.1162/neco.1997.9.8.1735) : An original idea for long sentences processing, inspired by human neural information processing mechanism.
+- [GRU](https://arxiv.org/pdf/1412.3555.pdf)
 - [Connectionist temporal classification](ftp://ftp.idsia.ch/pub/juergen/icml2006.pdf) : Inspired by dynamic processing and dynamic time warping(DTW) when dealing with time-warped sequences like audio data.
 - [Learning Longer Memory in RNN](https://arxiv.org/pdf/1413.7753.pdf) : Formulated Recursive Neural Network which can be applied on sequences recursively by only using a single compact model.
 - [Learning phrase representations using RNN encoder-decoder for statistical machine translation](https://arxiv.org/pdf/1406.1078.pdf) : "Cho Model" for NMT.
