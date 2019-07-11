@@ -103,6 +103,7 @@ So what is NEXT?
 * [UNet](https://arxiv.org/pdf/1505.04597.pdf) : Introduced spatial features extraction and restorations. Backbone of many works like image compression/imputations/segmentation. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
 * [DeepLab](http://arxiv.org/pdf/1606.00915.pdf) ,[DeepLab v2](https://arxiv.org/pdf/1606.00915.pdf) and [DeepLab v3](https://arxiv.org/pdf/1706.05587.pdf)
 * [FPN](https://arxiv.org/pdf/1612.03144.pdf)
+* [STS](https://arxiv.org/pdf/1611.07932.pdf) and [STS++](https://arxiv.org/pdf/1905.11358.pdf)
 
 ### Optical Flow
 
