@@ -82,7 +82,6 @@ So what is NEXT?
 - [ArcFace](https://arxiv.org/pdf/1801.07698.pdf) : A final human face recognition paper combines sphereface idea and different order loss margins (Order 0,1,2 are hyper parameters)
 - [Image Transformer](https://arxiv.org/pdf/1802.05751.pdf) : ?
 - [Multimodal Unsupervised Image-to-Image Translation](https://arxiv.org/pdf/1804.04732.pdf): ?
-- [SNIPER: Efficient Multi-Scale Training](https://arxiv.org/pdf/1805.09300.pdf) : ?
 - [Learning to Segment Every Thing](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Learning_to_Segment_CVPR_2018_paper.pdf): ?
 - [Glow](https://arxiv.org/pdf/1807.03039.pdf) : Introduced Invertible 1x1 Convolutions to save parameters in Encoder/Decoder , relying on PixelShuffler. 
 - [Segmentation is All You Need](https://arxiv.org/pdf/1904.13300.pdf) : Introduced Segmentation methodology for detection task.
@@ -140,6 +139,7 @@ So what is NEXT?
 - [Bag of Tricks for CV](https://arxiv.org/pdf/1812.01187.pdf)
 - [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/pdf/1706.02677.pdf)
 - [LARS](https://arxiv.org/pdf/1709.05011.pdf)
+- [SNIPER: Efficient Multi-Scale Training](https://arxiv.org/pdf/1805.09300.pdf)
 - [Learning Data Augmentation Strategies for Object Detection](https://arxiv.org/pdf/1906.11172.pdf)
 
 ## Systems
