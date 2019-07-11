@@ -46,7 +46,7 @@ So what is NEXT?
 
 ## Computer Vision
 
-### Invertible 1x1, Pixel Shuffler, DeepLab v1-v3
+### Invertible 1x1
 
 ### Architecture
 
@@ -61,7 +61,6 @@ So what is NEXT?
 - [First Attention Solution](https://arxiv.org/abs/1109.3737) : 
 - [Convolutional Implementation of Sliding Windows](https://arxiv.org/pdf/1312.6229.pdf) : The core idea is CNN must recognize things invariant to position shifts.
 - [1 x 1 Convolution](https://arxiv.org/pdf/1312.4400.pdf) : Introduced inplace inter-channel information exchange.
-- [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf) : Deal with large scale dynamic range of features.
 - [Triplet Loss](https://arxiv.org/pdf/1503.03832.pdf) : Combined differential learning and hard example mining.
 - [Highway Networks](https://papers.nips.cc/paper/5850-training-very-deep-networks.pdf) : Must read before ResNet. Introduced branching schemes to accelerate deep learning training process.
 - [Dilate Convolution](https://arxiv.org/pdf/1511.07122.pdf): Introduced more effective method for enlarging receptive field.
@@ -74,6 +73,7 @@ So what is NEXT?
 - [R-FCN](https://arxiv.org/pdf/1605.06409.pdf) : Introduced 3x3 pixel shuffler.
 - [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf)
 - [Deep Neural Networks for Object Detection](https://pdfs.semanticscholar.org/713f/73ce5c3013d9fb796c21b981dc6629af0bd5.pdf)
+- [Glow](https://arxiv.org/pdf/1807.03039.pdf) : Introduced Invertible 1x1 Convolutions to save parameters in Encoder/Decoder , relying on PixelShuffler. 
 
 ### Detection
 
@@ -101,6 +101,7 @@ So what is NEXT?
 
 * [Fully Convolutional Networks](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) : Pixelwise classification as Segmentation.
 * [UNet](https://arxiv.org/pdf/1505.04597.pdf) : Introduced spatial features extraction and restorations. Backbone of many works like image compression/imputations/segmentation. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
+* [Pixel Shuffler](https://arxiv.org/pdf/1609.05158.pdf)
 * [DeepLab](http://arxiv.org/pdf/1606.00915.pdf) ,[DeepLab v2](https://arxiv.org/pdf/1606.00915.pdf) and [DeepLab v3](https://arxiv.org/pdf/1706.05587.pdf)
 * [FPN](https://arxiv.org/pdf/1612.03144.pdf)
 * [STS](https://arxiv.org/pdf/1611.07932.pdf) and [STS++](https://arxiv.org/pdf/1905.11358.pdf)
@@ -118,8 +119,6 @@ So what is NEXT?
 ### Loss Function
 
 - [ArcFace](https://arxiv.org/pdf/1801.07698.pdf) : A final human face recognition paper combines sphereface idea and different order loss margins (Order 0,1,2 are hyper parameters)
-
-- [Glow](https://arxiv.org/pdf/1807.03039.pdf) : Introduced Invertible 1x1 Convolutions to save parameters in Encoder/Decoder , relying on PixelShuffler. 
 
 ### Pose Estimation
 
@@ -175,6 +174,7 @@ So what is NEXT?
 ## Tricks
 
 - [Dropout](http://papers.nips.cc/paper/4882-dropout-training-as-adaptive-regularization.pdf)
+- [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf) : Deal with large scale dynamic range of features.
 - [No More Pesky Learning Rates](https://arxiv.org/pdf/1206.1106.pdf)
 - [Bag of Tricks for CV](https://arxiv.org/pdf/1812.01187.pdf)
 - [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/pdf/1706.02677.pdf)
