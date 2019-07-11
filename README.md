@@ -80,7 +80,6 @@ So what is NEXT?
 - [MobileNets](https://arxiv.org/pdf/1704.04861.pdf) : Efficient on some mobile devices. Introduced Depthwise Separable Conv which is very sparse. Save space for model parameters to the extreme. No saving for infer-time feature map.
 - [ResNext]() : A tradeoff between a sparse MobileNet and a dense ResNet.
 - [ArcFace](https://arxiv.org/pdf/1801.07698.pdf) : A final human face recognition paper combines sphereface idea and different order loss margins (Order 0,1,2 are hyper parameters)
-- [Image Transformer](https://arxiv.org/pdf/1802.05751.pdf) : ?
 - [Multimodal Unsupervised Image-to-Image Translation](https://arxiv.org/pdf/1804.04732.pdf): ?
 - [Learning to Segment Every Thing](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Learning_to_Segment_CVPR_2018_paper.pdf): ?
 - [Glow](https://arxiv.org/pdf/1807.03039.pdf) : Introduced Invertible 1x1 Convolutions to save parameters in Encoder/Decoder , relying on PixelShuffler. 
