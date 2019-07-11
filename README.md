@@ -74,10 +74,10 @@ So what is NEXT?
 - [FlowNet](https://arxiv.org/pdf/1504.06852.pdf) and [FlowNet2.0](https://arxiv.org/pdf/1612.01925.pdf) Introduced temporal features extraction. Backbone of many works based on video understanding. Ideas might be inspired by MPEG4 rev.11 i.e. H264.
 - [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf) : Yolov2. Better, Stronger, Faster. Introduced Darknet architecture using less Conv1x1. Introduced label tricks. YoloV3 Introduced unsupervised clustering in RPN/NMS stage.
 - [Deformable Convolutional Networks](https://arxiv.org/pdf/1703.06211.pdf): 
-- [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf) : Introduced segmentation after ROI-Align. Not efficient on AI chip.
+- [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf) : Introduced segmentation after ROI-Align. **Not efficient on AI chip.**
 - [OpenPose + PAF](https://arxiv.org/pdf/1611.08050.pdf) : The core idea is to predict directed vectors in between keypoints to form a feature map (PAF) thus one can join KP to different instances in a bottom-up way.
 - [MobileNets](https://arxiv.org/pdf/1704.04861.pdf) : Efficient on some mobile devices. Introduced Depthwise Separable Conv which is very sparse. Save space for model parameters to the extreme. No saving for infer-time feature map.
-- [ResNext]() : A tradeoff between a sparse MobileNet and a dense ResNet.
+- [ResNeXt](https://arxiv.org/pdf/1611.05431.pdf) : A tradeoff between a sparse MobileNet and a dense ResNet.
 - [ArcFace](https://arxiv.org/pdf/1801.07698.pdf) : A final human face recognition paper combines sphereface idea and different order loss margins (Order 0,1,2 are hyper parameters)
 - [Multimodal Unsupervised Image-to-Image Translation](https://arxiv.org/pdf/1804.04732.pdf): ?
 - [Learning to Segment Every Thing](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Learning_to_Segment_CVPR_2018_paper.pdf): ?
