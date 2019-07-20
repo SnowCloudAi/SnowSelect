@@ -151,6 +151,8 @@ So what is NEXT?
 - [Pix2Pix](https://arxiv.org/pdf/1611.07004.pdf)
 - [WGAN](https://arxiv.org/pdf/1701.07875.pdf) and [WGAN-GP](https://arxiv.org/pdf/1704.00028.pdf)
 - [CycleGAN](https://arxiv.org/pdf/1703.10593.pdf)
+- [XGAN](https://arxiv.org/pdf/1711.05139.pdf)
+- [StarGAN](https://arxiv.org/pdf/1711.09020.pdf)
 
 ## Transfer Learning
 
