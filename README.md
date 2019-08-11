@@ -17,7 +17,8 @@ After each subdomain, we proposed several ideas that may inspire your work that 
 ## Natual Language Processing
 
 - [Long and Short-Term Memory](https://www.mitpressjournals.org/doi/10.1162/neco.1997.9.8.1735) : An original idea for long sentences processing, inspired by human neural information processing mechanism.
-- [GRU](https://arxiv.org/pdf/1412.3555.pdf)
+- [Recurrent neural network based language model](https://www.isca-speech.org/archive/archive_papers/interspeech_2010/i10_1045.pdf) : An original idea of introducing RNN-like structure into the language model(LM).
+- [GRU](https://arxiv.org/pdf/1412.3555.pdf) : A simple yet effective model for RNN-like structure. A large number of effective, high-precision models based on this architecture.
 - [Connectionist temporal classification](ftp://ftp.idsia.ch/pub/juergen/icml2006.pdf) : Inspired by dynamic processing and dynamic time warping(DTW) when dealing with time-warped sequences like audio data.
 - [Learning Longer Memory in RNN](https://arxiv.org/pdf/1413.7753.pdf) : Formulated Recursive Neural Network which can be applied on sequences recursively by only using a single compact model.
 - [Learning phrase representations using RNN encoder-decoder for statistical machine translation](https://arxiv.org/pdf/1406.1078.pdf) : "Cho Model" for NMT.
@@ -36,6 +37,7 @@ After each subdomain, we proposed several ideas that may inspire your work that 
 - [Transformer-XL](https://arxiv.org/abs/1901.02860): Introduced relative positional encoding. State reuse resolved the problem may caused by excessive long sentence.
 - [Focused Attention Networks](https://arxiv.org/pdf/1905.11498.pdf)
 - [XLNet](https://arxiv.org/pdf/1906.08237.pdf) : Combined AR and AE models. Introduced DAG while learning AR parameters in sentence segments.
+- [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) : Simplified structure of XLNet AR part. And BERT for CV.(ADDRESS OUR #3 in [what is NEXT])
 
 So what is NEXT? 
 
