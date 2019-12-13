@@ -166,8 +166,7 @@ So what is NEXT?
 ## Deep Representations
 
 - [Better Mixing via Deep Representations](https://arxiv.org/pdf/1207.4404.pdf)
-- [Provable Bounds for Learning Some Deep
-   Representations](https://arxiv.org/pdf/1310.6343.pdf)
+- [Provable Bounds for Learning Some Deep Representations](https://arxiv.org/pdf/1310.6343.pdf)
 
 ## Audio Processing
 
@@ -175,14 +174,20 @@ So what is NEXT?
 - [Deep Voice](https://arxiv.org/pdf/1702.07825.pdf)
 - [WaveNet for Denoising](https://arxiv.org/pdf/1706.07162.pdf)
 
+## Quantization
+
+* [BinaryConnect](http://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf)
+* [Binarized Neural Networks](http://papers.nips.cc/paper/6573-binarized-neural-networks.pdf)
+* [Binarized neural networks: Training deep neural networks with weights and activations constrained to+ 1 or-1](https://arxiv.org/pdf/1602.02830.pdf)
+
 ## Tricks
 
 - [Dropout](http://papers.nips.cc/paper/4882-dropout-training-as-adaptive-regularization.pdf)
 - [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf) : Deal with large scale dynamic range of features.
 - [No More Pesky Learning Rates](https://arxiv.org/pdf/1206.1106.pdf)
-- [Bag of Tricks for CV](https://arxiv.org/pdf/1812.01187.pdf)
+- [Bag of Tricks for CV](https://arxiv.org/pdf/1812.01187.pdf) : Tricks about how to train a model with higher cost performance.
 - [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/pdf/1706.02677.pdf)
-- [LARS](https://arxiv.org/pdf/1709.05011.pdf)
+- [LARS](https://arxiv.org/pdf/1709.05011.pdf) : How to train a model with very large batch size.
 - [SNIPER: Efficient Multi-Scale Training](https://arxiv.org/pdf/1805.09300.pdf)
 - [Learning Data Augmentation Strategies for Object Detection](https://arxiv.org/pdf/1906.11172.pdf)
 
