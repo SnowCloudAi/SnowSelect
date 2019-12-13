@@ -32,6 +32,7 @@ After each subdomain, we proposed several ideas that may inspire your work that 
 - [Global And Local Attention](https://arxiv.org/pdf/1508.04025.pdf) : Introduced attention along data.
 - [Character-Aware Neural Language Models](https://arxiv.org/pdf/1508.06615.pdf): Character level Conv model for NLP.
 - [Attention is All You Need.](https://arxiv.org/pdf/1706.03762.pdf) : First transduction model relying entirely on self-attention to compute representations of its input and output without using RNNs or convolution, but global FC. Introduced positional encoding, 15% mask sampling and multihead (plus, minus, eltwise product) additive attention.
+- [Universial Transformer](https://arxiv.org/pdf/1807.03819.pdf)
 - [BERT](https://arxiv.org/abs/1810.04805): Bidirectional. Optimized for downstream tasks.
 - [Attentive Neural Processes](https://arxiv.org/pdf/1901.05761.pdf)
 - [Transformer-XL](https://arxiv.org/abs/1901.02860): Introduced relative positional encoding. State reuse resolved the problem may caused by excessive long sentence.
