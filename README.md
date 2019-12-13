@@ -38,6 +38,7 @@ After each subdomain, we proposed several ideas that may inspire your work that 
 - [Transformer-XL](https://arxiv.org/abs/1901.02860): Introduced relative positional encoding. State reuse resolved the problem may caused by excessive long sentence.
 - [Focused Attention Networks](https://arxiv.org/pdf/1905.11498.pdf)
 - [XLNet](https://arxiv.org/pdf/1906.08237.pdf) : Combined AR and AE models. Introduced DAG while learning AR parameters in sentence segments.
+- [Unsupervised Question Answering by Cloze Translation](https://www.aclweb.org/anthology/P19-1484.pdf)
 - [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf) : Simplified structure of XLNet AR part. And BERT for CV.(ADDRESS OUR #3 in [what is NEXT])
 
 So what is NEXT? 
